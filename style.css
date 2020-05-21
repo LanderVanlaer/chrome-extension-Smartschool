@@ -1,0 +1,376 @@
+:root {
+    --dark-light: #36393e;
+    --dark-dark: #202225;
+    --dark-mid: #2f3136;
+    --blue-light: #0096cf;
+}
+
+#coursesMenu ::-webkit-scrollbar-thumb {
+    background-color: var(--dark-light) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--dark-dark) !important;
+}
+
+html,
+body {
+    background-color: var(--dark-light) !important;
+    color: white !important;
+}
+
+div.border,
+#menuContainerBottom,
+td[background="https://static5.smart-school.net/themes/default/images/frame_r1_c5.gif"],
+td[background="https://static5.smart-school.net/themes/default/images/frame_r5_c13.gif"],
+td[background="https://static5.smart-school.net/themes/default/images/frame_r3_c1.gif"],
+td[background="https://static5.smart-school.net/themes/default/images/frame_r7_c3.gif"],
+td[background="https://static5.smart-school.net/themes/default/images/frame_r7_c1.gif"],
+td[background="https://static5.smart-school.net/themes/default/images/frame_r1_c1.gif"],
+td[background="https://static5.smart-school.net/themes/default/images/frame_r7_c13.gif"],
+td[background="https://static5.smart-school.net/themes/default/images/frame_r1_c13.gif"] {
+    background-image: none !important;
+    background-color: var(--dark-light) !important;
+    border: none !important;
+    color: white !important;
+}
+
+.smsc-title--1 {
+    color: white !important;
+    font-weight: 700 !important;
+}
+
+.modern-ui .smsc-topnav .topnav,
+.smsc-topnav .topnav,
+.topnav__menu {
+    background-color: var(--dark-dark) !important;
+    color: white !important;
+}
+
+.topnav__menu.topnav__menu--shortcuts .topnav__menuitem {
+    color: white !important;
+}
+
+.smsc-topnav :not(.topnav__menuitem--no-hover).topnav__menuitem:hover {
+    background-color: var(--dark-light) !important;
+}
+
+
+/*------------- VAKKEN -------------*/
+.topnav__menu.topnav__menu--courses #courseSearch,
+#coursesMenu>div>div>div>div>label {
+    color: hsla(0, 0%, 100%, .7) !important;
+    background-color: var(--dark-mid) !important;
+}
+
+.topnav__menu.topnav__menu--courses span.course-link__name.js-course-name {
+    color: white !important;
+}
+
+
+
+/*------------- AGENDA -------------*/
+div.agenda_grid_header_day {
+    color: white !important;
+}
+
+#navNext,
+#navPrev {
+    color: white !important;
+    background-color: var(--dark-mid) !important;
+}
+
+#ui-datepicker-div,
+#ui-datepicker-div * {
+    color: white !important;
+    background-color: var(--dark-mid) !important;
+}
+
+.agendaGridBlockContentStatus.gridBlockContentNoteStatusYes {
+    background-color: var(--dark-mid) !important;
+}
+
+.gridBlock.color_snow_white {
+    visibility: hidden !important;
+}
+
+#infoFormWindow #infoContainerStudent {
+    background-color: var(--dark-light) !important;
+    border-top-left-radius: 0 !important;
+}
+
+#infoContainerButton,
+#infoContainerTabs ul li,
+.infoContainer,
+#infoContainerTabs ul li span {
+    background-image: none !important;
+    background-color: var(--dark-dark) !important;
+    border: none !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#infoContainerTabs ul li.current,
+#infoContainerTabs ul li.current span {
+    background-color: var(--dark-light) !important;
+}
+
+#infoContainerTabs ul li span {
+    border: none !important;
+}
+
+div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.smscWindow,
+div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.smscWindow>div.ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix.ui-draggable-handle,
+#lessonEditContainerNote,
+#lessonEditFormSubTitle,
+#infoFormWindow,
+.tabs,
+.wborder,
+.wtopy {
+    background-image: none !important;
+    background-color: var(--dark-dark) !important;
+    color: white !important;
+    border: none !important;
+}
+
+#lessonEditContainerNoteContent,
+#infoContainerNoteContent,
+#lessonEditSaveButton,
+.smscButton {
+    color: white !important;
+    background-color: var(--dark-light) !important;
+    border-color: var(--dark-dark) !important;
+    background-image: none !important;
+}
+
+#lessonEditContainerNoteContent,
+#infoContainerNoteContent {
+    font-size: 1.5rem !important;
+}
+
+.infoContainerButton.smscButton:active,
+.infoContainerButton.smscButton:focus {
+    border: 1px solid var(--blue-light) !important;
+}
+
+
+
+/*------------- BERICHTEN -------------*/
+div.modern-message__content span {
+    color: white !important;
+}
+
+.modern-message:hover,
+.modern-message.modern-message--selected {
+    background-color: var(--dark-dark) !important;
+}
+
+.modern-message__actions {
+    background-color: var(--dark-light) !important;
+}
+
+#toolbar,
+#msgdetail>div,
+#folders_parent_table,
+#folders_parent_table a,
+#tree_edit_menu>div.smsc-contextmenu-bubble,
+.smsc-contextmenu.position-bottom .smsc-contextmenu-arrow,
+.smsc-contextmenu.position-bottom .smsc-contextmenu-arrow a,
+#tree_edit_menu>div.smsc-contextmenu-bubble>a.menu-type.menu-linkbutton.smsc-linkbutton.smsc-linkbutton--icon.smsc-linkbutton--svg.smsc-linkbutton--black.smsc-svg--16,
+#tree_edit_menu>div.smsc-contextmenu-bubble>a.menu-type.menu-linkbutton.smsc-linkbutton.smsc-linkbutton--icon.smsc-linkbutton--svg.smsc-linkbutton--black.smsc-svg--16,
+#editsubboxinput,
+body>div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-dialog-buttons,
+body>div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-dialog-buttons *,
+.smsc-contextmenu.position-bottom .smsc-contextmenu-arrow::after,
+.smsc-contextmenu.position-bottom .smsc-contextmenu-arrow::before,
+#smscSelectPanel_search_on_select>div.smsc-select-bubble,
+#smscSelectPanel_search_on_select>div.smsc-select-arrow::after,
+#smscSelectPanel_search_on_select>div.smsc-select-arrow::before,
+#sort_list_menu,
+#sort_list_menu a,
+#msgdetail,
+#msgdetail *,
+#sort_list_menu div,
+#msgcell,
+#folders_parent_td,
+.smscWindow * {
+    background-color: var(--dark-light) !important;
+    color: white !important;
+    border: none !important;
+}
+
+#msgdetail a {
+    color: var(--blue-light) !important;
+}
+
+body>div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-dialog-buttons button,
+#attachlist>div.attachmentList__list>div:hover,
+#attachlist>div.attachmentList__list>div:hover *,
+#tree_add_menu>div.smsc-contextmenu-bubble,
+#tree_add_menu>div.smsc-contextmenu-bubble a,
+.smscWindow input,
+.smscWindow button,
+#search_on_select,
+#search_in_select,
+#search_in_period,
+.modern-ui .smsc-select::before,
+.smsc-select-dialog .smsc-select-bubble .smsc-select-bubble-options .smsc-select-option.item.active,
+.smsc-select-panel .smsc-select-bubble .smsc-select-bubble-options .smsc-select-option.item.active,
+.smsc-select-dialog .smsc-select-bubble .smsc-select-bubble-options .smsc-select-option.item:hover,
+.smsc-select-panel .smsc-select-bubble .smsc-select-bubble-options .smsc-select-option.item:hover {
+    background-color: var(--dark-dark) !important;
+    color: white !important;
+}
+
+#moveToMyDocPopup>movetomydoc-popup>div>ul>li>div>div>label {
+    color: white !important;
+}
+
+
+
+
+/*------------- NOTIFICATIONS -------------*/
+#notifsMenu,
+#notifsMenu span {
+    color: white !important;
+}
+
+.smsc-topnav .notification:hover,
+.smsc-topnav .notification:hover .notification__btn {
+    background-color: var(--dark-light) !important;
+}
+
+
+
+/*------------- VAKKEN -------------*/
+.smscFrameTitle,
+.smscleftnavcontainer {
+    background-image: none !important;
+    background-color: var(--dark-dark) !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+.smscleftnavcontainer a {
+    color: white !important;
+}
+
+.smsc-column-nav__button:hover {
+    background-color: var(--dark-mid) !important;
+    border: none !important;
+}
+
+.smsc_cm_body,
+.smsc_cm_body *,
+.smsc_cm_breadcrumb,
+.smsc_cm_breadcrumb a,
+.smscFrameTitleContainer {
+    background-color: var(--dark-light) !important;
+    color: white !important;
+}
+
+
+.uploadzone td,
+#treecollapse,
+#toolbar .toolbar-top,
+#toolbar .toolbar-bottom {
+    background-image: none !important;
+}
+
+/* #uploadzone>tbody>tr>td:nth-child(2)>div, */
+#resizeHandle,
+#toolbarSpacer1,
+#toolbarAddFile {
+    border: none !important;
+}
+
+.uploadzone *,
+#treecollapse,
+.smsc-tabslist .smsc-tabslist__item,
+.smsc-tabslist .smsc-tabslist__item a,
+.smsc-table__header,
+#tab_mycomp>upload-mycomp>div>div.smsc-table__header>div:nth-child(1) {
+    background-color: var(--dark-light) !important;
+    color: white !important;
+}
+
+.smsc-table__header:hover,
+.smsc-table__row:hover {
+    background-color: var(--dark-mid) !important;
+}
+
+
+
+
+
+
+.correctioninfo,
+.correctionline,
+.correctioninfocorr {
+    background-color: inherit;
+}
+
+.course__block,
+.course__block__title,
+.course__block__description {
+    color: white;
+}
+
+.course__block:hover .course__block__title,
+.course__block:hover .course__block__description,
+.course__block__title:hover,
+.course__block__description:hover {
+    color: var(--dark-mid);
+}
+
+.homepage__block__content,
+.homepage__block__content * {
+    background-color: var(--dark-light) !important;
+    color: #fff !important;
+}
+
+.homepage__block__content:hover,
+.homepage__block__content:hover * {
+    color: #fff !important;
+}
+
+.msgContentVal * {
+    background-color: var(--dark-light) !important;
+    color: #fff !important;
+}
+
+.msgContentVal a {
+    background-color: var(--dark-light) !important;
+    color: #0096cf !important;
+}
+
+.attachment *,
+.attachment {
+    background-color: var(--dark-light) !important;
+    color: #fff !important
+}
+
+.attachment:hover *,
+.attachment:hover {
+    background-color: #fff !important;
+    color: var(--dark-light) !important
+}
+
+.frametable {
+    background-color: var(--dark-light) !important;
+    color: #fff !important
+}
+
+.full_part_pie_two {
+    background-color: #565659 !important;
+}
+
+.course {
+    background-color: var(--dark-light) !important;
+    color: #fff !important
+}
