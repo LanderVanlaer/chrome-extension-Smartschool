@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Smartschool dark design",
+    "version": "1.0",
+    "description": "Redesign of Smartschool",
+    "content_scripts": [{
+        "matches": ["https://*.smartschool.be/*"],
+        "js": ["app.js"],
+        "css": ["style.css"]
+    }]
+}
