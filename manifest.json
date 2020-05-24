@@ -7,5 +7,8 @@
         "matches": ["https://*.smartschool.be/*"],
         "js": ["app.js"],
         "css": ["style.css"]
-    }]
+    }],
+    "browser_action": {
+        "default_icon": "images/icon.png"
+    }
 }
